@@ -1,0 +1,53 @@
+.navbar-dark {
+  background-color: black !important;
+  margin-bottom: 25px;
+}
+
+.btn-success {
+  margin-left: 15px;
+  margin-right: 20px;
+  background-image: url('../assets/portal.jpg');
+  background-size: 115px;
+  background-position: center;
+  color: white !important;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  font-size: 20px !important;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 0.5px black;
+  font-weight: bold !important;
+}
+
+.btn-success:hover {
+  background-image: url('../assets/portal.gif');
+  background-size: 115px;
+  background-position: center;
+}
+
+.portal {
+  width: 50px;
+}
+
+.navbar-brand {
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent !important;
+  background-image: url('../assets/portal.gif');
+  background-position: center;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif !important;
+  letter-spacing: 2px;
+  -webkit-text-stroke: 0.1px white;
+  font-weight: bold;
+  font-size: 35px !important;
+  margin-bottom: 4px;
+  margin-left: 10px;
+  padding: 0px !important;
+}
+
+.nav-item {
+  color: white !important;
+}
+
+.col-md-6 {
+  border: 1px solid gray;
+  text-align: center;
+}
